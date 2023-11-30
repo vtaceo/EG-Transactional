@@ -4,90 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transaction Confirmation</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-        }
-
-        h1,
-        h2 {
-            color: #333333;
-        }
-
-        p {
-            color: #555555;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        th,
-        td {
-            /* border: 1px solid #dddddd; */
-            text-align: left;
-            padding: 8px;
-        }
-
-        .item img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        @media (max-width: 600px) {
-            .responsive-table {
-                display: block;
-                width: 100%;
-            }
-
-            .responsive-table td {
-                display: block;
-                width: 100%;
-                box-sizing: border-box;
-                margin-bottom: 10px;
-            }
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            background-color: #3498db;
-            color: #ffffff;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transaction Confirmation</title>
+    <title>EyeBuyDirect</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -110,7 +27,7 @@
         h2,
         h3,
         h4 {
-            color: #333333;
+            color: #000000;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 200;
         }
@@ -138,19 +55,7 @@
             padding: 8px;
         }
 
-        .item img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .socials {
-            /* background-color: orange; */
-            /* margin: auto; */
-            /* width: 27%; */
-            /* max-width: 150px; */
-        }
-
-        .social-links {
+        */ .social-links {
             width: 100%;
         }
 
@@ -162,14 +67,7 @@
             align-items: center;
         }
 
-        .col2 {
-            height: 155px;
-            width: 90%;
-            max-height: 155px;
-            display: flex;
-            align-items: center;
 
-        }
 
 
 
@@ -203,22 +101,6 @@
                 padding: 0 !important;
             }
 
-            /* .ship {
-                text-align: left !important;
-                margin: 0 !important;
-                padding: 0 !important;
-            } */
-
-            .ship {
-                text-align: center !important;
-                margin: 0 !important;
-                padding: 0 !important;
-            }
-
-            /* .product-list {
-                display: block !important;
-            } */
-
             .combine {
                 display: flex !important;
                 flex-direction: row !important;
@@ -228,28 +110,6 @@
                 height: 80px !important;
             }
 
-            /* .product-image {
-                width: 100% !important;
-                padding: 0;
-                margin: 0;
-                background-color: orange;
-            } */
-
-            /* .product-image img {
-                max-width: 400px !important;
-                width: 100% !important;
-                padding: 0;
-                margin: 0;
-            } */
-
-            .button {
-                width: 100%;
-                padding: 13px 0 !important;
-            }
-
-            .track-time {
-                width: 100% !important;
-            }
 
             .socials {
                 width: 90% !important;
@@ -283,25 +143,23 @@
                 padding-top: 10px;
             }
 
+            .site-links #hide {
+                display: none;
+            }
+
+            .site-links {
+                font-size: 12px !important;
+                text-align: center;
+                margin: auto;
+            }
+
 
         }
 
-        /* @media (max-width: 600px) {
-            .shipped-table  {
-                background-color: orange;
-                width: 100vw;
+        @media (max-width: 300px) {
+            .site-links #hide-2 {
+                display: none;
             }
-        } */
-
-        .button {
-            display: inline-block;
-            padding: 13px 33px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            background-color: rgb(31, 92, 172);
-            color: #ffffff;
-            border-radius: 50px;
         }
     </style>
 </head>
@@ -320,15 +178,17 @@
 
         <!-- NAV LINKS -->
         <table class="site-links">
-            <tr class="link" style="border-bottom: 1px solid black;">
-                <td style="width:33%; text-align: center; ""><a href="" style=" font-size: 14px; text-decoration:
-                    none;">
-                    SHOP</a></td>
-                <td
-                    style="width:33%;  text-align: center; border-left: 1px solid #dfdfdf; border-right: 1px solid #dfdfdf;">
-                    <a href="" style="font-size: 14px; text-decoration: none;">ABOUT</a></td>
-                <td style="width:33%; text-align: center;">
-                    <a href="" style="font-size: 14px; text-decoration: none;">CONTACT</a>
+            <tr class="link" style="border-bottom: 1px solid black; ">
+                <td id="adjust" style="width:25%; text-align: center; ""><a href="" style=" font-size: 14px;
+                    text-decoration: none;">
+                    EYEGLASSES</a></td>
+                <td id="adjust" style="width:25%;  text-align: center; ">
+                    <a href="" style="font-size: 14px; text-decoration: none;">SUNGLASSES</a></td>
+                <td id="hide" style="width:30%; text-align: center;">
+                    <a href="" style="font-size: 14px; text-decoration: none;">PREMIUM BRANDS</a>
+                </td>
+                <td id="hide-2" style="width:20%; text-align: center;">
+                    <a href="" style="font-size: 14px; text-decoration: none;">ON SALE</a>
                 </td>
             </tr>
         </table>
@@ -398,11 +258,11 @@
                 <p style="margin: 0 0 4px 0; color: black; font-weight: bold; font-size: 22px;">12345671</p>
                 <p style="margin: 0 0 4px 0; color: grey; padding-top: 20px; padding-bottom: 10px;">SHIPPING DETAILS
                 </p>
-                <p style="margin: 0 0 4px 0;  color: black">John Smith</p>
-                <p style="margin: 0 0 4px 0; color: black">2307 Benson Street</p>
-                <p style="margin: 0 0 4px 0; color: black">Eau Claire, WI, 54701</p>
-                <p style="margin: 0 0 4px 0; color: black">United States</p>
-                <p style="margin: 0 0 0 0; color: black">7152904862</p>
+                <p style="margin: 0 0 4px 0;  color: black; font-size: 16px;">John Smith</p>
+                <p style="margin: 0 0 4px 0; color: black; font-size: 16px;">2307 Benson Street</p>
+                <p style="margin: 0 0 4px 0; color: black; font-size: 16px;">Eau Claire, WI, 54701</p>
+                <p style="margin: 0 0 4px 0; color: black; font-size: 16px;">United States</p>
+                <p style="margin: 0 0 0 0; color: black; font-size: 16px;">7152904862</p>
             </td>
             </tr>
             <tr>
@@ -411,10 +271,10 @@
                 </td </tr>
             <tr class="combine" style="background-color: rgb(236, 236, 236); margin: auto; width: 92%;">
                 <td class="" style="padding: 0 10px;">
-                    <p><b style="color: black;">Package 1</b> (2 Frames)</p>
+                    <p style="font-size: 16px;"><b style="color: black; font-size: 16px;">Package 1</b> (2 Frames)</p>
                 </td>
                 <td style="padding: 0 10px;">
-                    <p style="text-align: right;">Almost Done</p>
+                    <p style="text-align: right; font-size: 16px;">Almost Done</p>
                 </td>
             </tr>
             <tr style="text-align: center;">
